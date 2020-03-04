@@ -1,0 +1,28 @@
+#rows {
+    display: inline-grid;
+    margin: 50px 0 0 500px;
+}
+
+.columns {
+    display: grid;
+}
+
+.columns span {
+    position: relative;
+}
+
+.white {
+    text-align: center;
+}
+
+.ga_num {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    text-align: center;
+}
+
+.se_num {
+    position: absolute;
+    right: 0;
+}
